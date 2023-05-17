@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.nav1{
+  position: absolute;
+width: 1728px;
+height: 100px;
+left: 0px;
+top: 0px;
+
+background: #873e23;
+}
+
+
+.loginbutton{
+  position: absolute;
+  width: 129px;
+  height: 29px;
+  left: 1030px;
+  top: 44px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+
+color: #FFFFFF;
+
+}
+.my{
+  font-size: 40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #FFFFFF;
+  margin-right: 50rem;
+}
+.siginbutton{
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  left: 1188px;
+  top: 44px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  
+  
+  color: #FFFFFF;
+}
+
+.my-logo{
+  position: absolute;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+width: 60px;
+height: 70px;
+}
+.top{
+  position: absolute;
+width: 1731px;
+height: 340px;
+left: 0px;
+top: 117px;
+background-color: black;
+background-image: url(E:\mylogin\public\images\heroimg.jpg);
+background-size: cover;
+  background-position: center;
+}
+.searchbar{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1201px;
+height: 92px;
+left: 243px;
+top: 467px;
+
+background: #FFFFFF;
+border: 3px solid #000000;
+border-radius: 50px;
+}
+.searchbar1{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-size: 45px;
+  background: #FFFFFF;
+border: 2px solid #000000;
+border-radius: 50px;
+padding-left: 20px;
+}
+
+.search{
+  position: absolute;
+width: 50px;
+height: 63px; left: 1251px;
+top: 481px;
+background: #D8232A;
+border-radius: 62px;
+}
+.pbox{
+  box-sizing: border-box;
+
+position: absolute;
+width: 466px;
+height: 388px;
+left: 82px;
+top: 704px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 10px;
+}
+.pbox:hover {
+  background-color: #EFEFEF; /* Adjust the desired hover background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adjust the desired box shadow */
+}
+.pbox + .pbox {
+  margin-left: 566px;
+}
+
+.pbox + .pbox + .pbox {
+  margin-left: 1120px;
+  background-image: url(E:\mylogin\public\images\28858.jpg);
+  background-size: cover;
+  background-position: center;
+}
